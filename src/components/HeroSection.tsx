@@ -36,7 +36,7 @@ const HeroSection = () => {
             <LeetCodeIcon className="w-4 h-4 text-primary" />
           </a>
         </div>
-        <div className="flex flex-col sm:flex-row gap-3 text-sm text-muted-foreground mb-12 animate-fade-in-up-delay-2">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center text-sm text-muted-foreground mb-12 animate-fade-in-up-delay-2">
           <span className="inline-flex items-center gap-2">
             <Mail className="w-4 h-4 text-primary" />
             apoorvak915@gmail.com
