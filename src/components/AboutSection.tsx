@@ -17,12 +17,13 @@ const AboutSection = () => {
               Building software that makes a <span className="text-gradient">real difference</span>.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a Computer Science student at Netaji Subhash University of Technology (CGPA: 8.48), 
-              passionate about creating scalable, impactful solutions.
+              As a passionate learner, I thrive on making a meaningful impact in the ever-evolving world of technology. I am driven by an insatiable curiosity and a proactive approach to embracing challenges and emerging technologies, viewing them as opportunities to broaden my skill set and sharpen my problem-solving capabilities.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              From cutting remediation time at Salesforce from months to hours, to developing novel 
-              data hiding algorithms at DRDO — I thrive at the intersection of engineering and innovation.
+              Beyond technical pursuits, I am deeply committed to leveraging technology for social good, creating solutions that address societal challenges and improve lives. I aspire to lead ventures that blend cutting-edge innovation with a clear purpose, championing a vision that drives both technological and societal progress.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              Alongside my strong interest in technology and entrepreneurship, I am also deeply intrigued by finance, fintech, marketing, and community engagement. I aim to merge my technical acumen with entrepreneurial spirit and a growth-focused mindset, building purpose-driven ventures that inspire change, foster communities, and leave a lasting impact.
             </p>
           </div>
           <div className="space-y-6">
