@@ -25,7 +25,7 @@ const HeroSection = () => {
         <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto leading-relaxed mb-8 animate-fade-in-up-delay-2">
           I thrive in the world of software, fueled by bold, creative ideas. I love building things that don't just work, but make an impact.
         </p>
-        <div className="flex gap-4 items-center mb-4 animate-fade-in-up-delay-2">
+        <div className="flex gap-4 items-center justify-center mb-4 animate-fade-in-up-delay-2">
           <a href="https://www.linkedin.com/in/apoorva-kumari-283a30254/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/10 transition-colors">
             <Linkedin className="w-4 h-4 text-primary" />
           </a>
