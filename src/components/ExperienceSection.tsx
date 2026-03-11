@@ -2,6 +2,14 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    company: "AlignTurtle",
+    role: "Frontend Developer",
+    period: "Sep 2025 – Present",
+    bullets: [
+      "Engineered the company's MVP across both web and mobile platforms from the ground up by converting wireframes into responsive, production-ready UI screens.",
+    ],
+  },
+  {
     company: "Salesforce",
     role: "Software Engineering Intern",
     period: "May 2025 – July 2025",
@@ -12,11 +20,11 @@ const experiences = [
     ],
   },
   {
-    company: "DRDO",
+    company: "Defence Research and Development Organisation (DRDO)",
     role: "Research Intern",
     period: "May 2024 – July 2024",
     bullets: [
-      "Collaborated with top scientists to develop advanced algorithms for information security and data hiding.",
+      "Collaborated with top scientists to develop advanced algorithms for information security and data hiding, contributing to state-of-the-art cryptology systems.",
       "Developed a novel histogram-based reversible data hiding scheme that reduced pixel distortion by 30%+ and improved embedding efficiency by 25%, while preserving high image quality (PSNR > 40dB).",
     ],
   },

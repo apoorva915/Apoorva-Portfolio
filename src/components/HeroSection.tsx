@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -16,10 +16,24 @@ const HeroSection = () => {
           <br />
           <span className="text-gradient">Kumari</span>
         </h1>
-        <p className="text-muted-foreground text-lg md:text-xl max-w-xl leading-relaxed mb-12 animate-fade-in-up-delay-2">
+        <p className="text-muted-foreground text-lg md:text-xl max-w-xl leading-relaxed mb-8 animate-fade-in-up-delay-2">
           CS undergrad at NSUT building impactful software — from AI-powered platforms 
           to blockchain apps. Former intern at <span className="text-foreground font-medium">Salesforce</span> & <span className="text-foreground font-medium">DRDO</span>.
         </p>
+        <div className="flex gap-4 items-center mb-12 animate-fade-in-up-delay-2">
+          <a href="https://www.linkedin.com/in/apoorva-kumari-283a30254/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/10 transition-colors">
+            <Linkedin className="w-4 h-4 text-primary" />
+          </a>
+          <a href="https://github.com/apoorva915" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/10 transition-colors">
+            <Github className="w-4 h-4 text-primary" />
+          </a>
+          <a href="mailto:apoorvak915@gmail.com" className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/10 transition-colors">
+            <Mail className="w-4 h-4 text-primary" />
+          </a>
+          <a href="tel:+918799784774" className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/10 transition-colors">
+            <Phone className="w-4 h-4 text-primary" />
+          </a>
+        </div>
         <div className="flex gap-6 items-center animate-fade-in-up-delay-3">
           <a
             href="#experience"

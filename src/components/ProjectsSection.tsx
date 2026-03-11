@@ -4,20 +4,20 @@ const projects = [
   {
     title: "ChatBlock",
     description:
-      "AI-powered blockchain payments app with a chatbot-driven interface to manage wallets, check balances, view history, and make paymail-based payments — boosting accessibility and expanding the user base by 60%.",
+      "Built an AI-powered blockchain payments app with a chatbot-driven interface to manage wallets, check balances, view history, and make paymail-based payments — boosting accessibility and expanding the user base by 60%. Integrated Neucron API for seamless blockchain wallet creation, reducing user drop-off by 30%.",
     tech: ["React", "Firebase", "Neucron API", "Tailwind CSS", "Gemini"],
   },
   {
     title: "StudyHelp",
     description:
-      "Full-stack AI learning platform for 100+ users, generating personalized notes, quizzes, flashcards, and outlines by topic, goal, and difficulty using Gemini AI. Boosted engagement by 30%+.",
+      "Built a full-stack AI learning platform for 100+ users, generating personalized notes, quizzes, flashcards, and outlines by topic, goal, and difficulty using Gemini AI. Integrated Inngest for async AI task handling, cutting backend cold-start latency and improving content delivery by 40%. Added Clerk auth, real-time tracking, and Stripe-based freemium model — boosting engagement by 30%+.",
     tech: ["Next.js", "Inngest", "Neon", "Clerk", "Stripe", "Gemini AI"],
   },
   {
     title: "Admin Dashboard",
     description:
-      "Enterprise-grade admin panel with secure login, real-time charts, activity feeds, and a Kanban board supporting task assignment, due dates, and real-time collaboration.",
-    tech: ["React", "Refine", "TypeScript", "GraphQL", "Ant Design"],
+      "Built an enterprise-grade admin panel with secure login, real-time charts, activity feeds, and a companies page with CRUD, search, and pagination. Added a Kanban board supporting task assignment, due dates, and real-time collaboration.",
+    tech: ["React", "Refine", "TypeScript", "GraphQL", "Ant Design", "Vite"],
   },
 ];
 

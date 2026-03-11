@@ -1,9 +1,9 @@
 const skills = [
-  { category: "Languages", items: ["Java", "Kotlin", "C++", "Python", "JavaScript"] },
-  { category: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "HTML/CSS"] },
-  { category: "Backend", items: ["Spring Boot", "Node.js", "Express.js", "REST APIs"] },
-  { category: "Databases", items: ["PostgreSQL", "MySQL", "MongoDB", "Amazon Aurora"] },
-  { category: "Cloud & Tools", items: ["AWS", "Docker", "Git", "Postman", "Maven"] },
+  { category: "Languages", items: ["Java", "Kotlin", "C++", "Python", "JavaScript", "TypeScript"] },
+  { category: "Frontend", items: ["React", "Next.js", "React Native", "Tailwind CSS", "HTML/CSS"] },
+  { category: "Backend", items: ["Spring", "Spring Boot", "Node.js", "Express.js", "REST APIs"] },
+  { category: "Databases", items: ["PostgreSQL", "MySQL", "MongoDB", "Mongoose", "Amazon Aurora"] },
+  { category: "Cloud & Tools", items: ["AWS", "AWS S3", "Docker", "Git", "GitHub", "Postman", "Maven"] },
 ];
 
 const AboutSection = () => {
@@ -17,7 +17,7 @@ const AboutSection = () => {
               Building software that makes a <span className="text-gradient">real difference</span>.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a Computer Science student at Netaji Subhash University of Technology (CGPA: 8.26), 
+              I'm a Computer Science student at Netaji Subhash University of Technology (CGPA: 8.48), 
               passionate about creating scalable, impactful solutions.
             </p>
             <p className="text-muted-foreground leading-relaxed">
