@@ -8,12 +8,12 @@ const LeetCodeIcon = ({ className }: { className?: string }) => (
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex flex-col justify-center section-padding relative overflow-hidden">
+    <section className="min-h-screen flex flex-col justify-center items-center section-padding relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-primary/3 rounded-full blur-3xl" />
 
-      <div className="relative z-10 max-w-4xl">
+      <div className="relative z-10 max-w-3xl mx-auto text-center">
         <p className="text-primary font-heading text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in-up">
           Software Engineer
         </p>
@@ -22,10 +22,10 @@ const HeroSection = () => {
           <br />
           <span className="text-gradient">Kumari</span>
         </h1>
-        <p className="text-muted-foreground text-lg md:text-xl max-w-xl leading-relaxed mb-8 animate-fade-in-up-delay-2">
+        <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto leading-relaxed mb-8 animate-fade-in-up-delay-2">
           I thrive in the world of software, fueled by bold, creative ideas. I love building things that don't just work, but make an impact.
         </p>
-        <div className="flex gap-4 items-center mb-4 animate-fade-in-up-delay-2">
+        <div className="flex gap-4 items-center justify-center mb-4 animate-fade-in-up-delay-2">
           <a href="https://www.linkedin.com/in/apoorva-kumari-283a30254/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/10 transition-colors">
             <Linkedin className="w-4 h-4 text-primary" />
           </a>
@@ -36,7 +36,7 @@ const HeroSection = () => {
             <LeetCodeIcon className="w-4 h-4 text-primary" />
           </a>
         </div>
-        <div className="flex flex-col sm:flex-row gap-3 text-sm text-muted-foreground mb-12 animate-fade-in-up-delay-2">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center text-sm text-muted-foreground mb-12 animate-fade-in-up-delay-2">
           <span className="inline-flex items-center gap-2">
             <Mail className="w-4 h-4 text-primary" />
             apoorvak915@gmail.com
@@ -46,7 +46,7 @@ const HeroSection = () => {
             +91 8799784774
           </span>
         </div>
-        <div className="flex gap-6 items-center animate-fade-in-up-delay-3">
+        <div className="flex gap-6 items-center justify-center animate-fade-in-up-delay-3">
           <a
             href="#experience"
             className="bg-primary text-primary-foreground font-heading font-semibold px-8 py-3.5 rounded-lg hover-lift inline-flex items-center gap-2"
