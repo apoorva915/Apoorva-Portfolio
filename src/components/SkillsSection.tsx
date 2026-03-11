@@ -8,9 +8,9 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="section-padding bg-card/50">
+    <section id="skills" className="px-6 py-10 md:px-12 lg:px-24 xl:px-32 bg-card/50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12">Skills</h2>
+        <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12 text-center">Skills</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((group) => (
             <div key={group.category}>
