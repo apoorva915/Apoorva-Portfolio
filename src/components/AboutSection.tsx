@@ -3,11 +3,10 @@ const AboutSection = () => {
     <section id="about" className="section-padding">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-3">About</h2>
-        <p className="text-2xl md:text-3xl font-heading font-semibold leading-snug mb-6">
-          Building software that makes a <span className="text-gradient">real difference</span>.
-        </p>
-        <div className="max-w-3xl space-y-4">
-          <p className="text-muted-foreground leading-relaxed">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-2xl md:text-3xl font-heading font-semibold leading-snug mb-6">
+            Building software that makes a <span className="text-gradient">real difference</span>.
+          </p>
             As a passionate learner, I thrive on making a meaningful impact in the ever-evolving world of technology. I am driven by an insatiable curiosity and a proactive approach to embracing challenges and emerging technologies, viewing them as opportunities to broaden my skill set and sharpen my problem-solving capabilities.
           </p>
           <p className="text-muted-foreground leading-relaxed">
