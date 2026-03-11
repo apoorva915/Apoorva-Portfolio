@@ -12,7 +12,7 @@ const AchievementsSection = () => {
   return (
     <section id="achievements" className="section-padding bg-card/50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12">Achievements</h2>
+        <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12 text-center">Achievements</h2>
         <div className="space-y-6">
           {achievements.map((a, i) => (
             <div key={i} className="flex items-start gap-4 group">

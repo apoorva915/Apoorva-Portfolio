@@ -34,7 +34,7 @@ const ExperienceSection = () => {
   return (
     <section id="experience" className="section-padding bg-card/50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12">Experience</h2>
+        <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12 text-center">Experience</h2>
         <div className="space-y-16">
           {experiences.map((exp, i) => (
             <div key={i} className="relative pl-8 border-l border-border">
