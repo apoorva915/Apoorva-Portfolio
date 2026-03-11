@@ -4,6 +4,7 @@ const achievements = [
   { icon: Star, text: "Selected in top 100 candidates by Salesforce India for the Futureforce Women In Tech Summit." },
   { icon: Trophy, text: "Secured 1st place in the Blockchain Hackathon organized by IIT Delhi × Timechain Labs." },
   { icon: Award, text: "Finalist at Hack for Impact, a nationwide hackathon at E-Summit 2025 by IIIT Delhi." },
+  { icon: Award, text: "Finalist in Sprint4Good AI Hackathon organised by IIT Delhi × Reskill." },
   { icon: Code, text: "700+ questions solved on LeetCode." },
 ];
 

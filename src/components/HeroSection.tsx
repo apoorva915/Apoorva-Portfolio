@@ -43,7 +43,7 @@ const HeroSection = () => {
           </span>
           <span className="inline-flex items-center gap-2">
             <Phone className="w-4 h-4 text-primary" />
-            8799784774
+            +91 8799784774
           </span>
         </div>
         <div className="flex gap-6 items-center animate-fade-in-up-delay-3">
