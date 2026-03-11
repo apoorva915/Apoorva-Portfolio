@@ -46,7 +46,7 @@ const HeroSection = () => {
             +91 8799784774
           </span>
         </div>
-        <div className="flex gap-6 items-center animate-fade-in-up-delay-3">
+        <div className="flex gap-6 items-center justify-center animate-fade-in-up-delay-3">
           <a
             href="#experience"
             className="bg-primary text-primary-foreground font-heading font-semibold px-8 py-3.5 rounded-lg hover-lift inline-flex items-center gap-2"
