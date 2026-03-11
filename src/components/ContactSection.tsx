@@ -1,4 +1,4 @@
-import { Mail, ArrowUpRight } from "lucide-react";
+import { Mail, ArrowUpRight, Phone, Linkedin, Github } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -12,14 +12,31 @@ const ContactSection = () => {
           I'm currently open to new opportunities and collaborations. 
           Whether you have a question or just want to say hi — my inbox is always open.
         </p>
-        <a
-          href="mailto:apoorva@example.com"
-          className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-heading font-semibold px-8 py-3.5 rounded-lg hover-lift"
-        >
-          <Mail className="w-4 h-4" />
-          Say Hello
-          <ArrowUpRight className="w-4 h-4" />
-        </a>
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
+          <a
+            href="mailto:apoorvak915@gmail.com"
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-heading font-semibold px-8 py-3.5 rounded-lg hover-lift"
+          >
+            <Mail className="w-4 h-4" />
+            Say Hello
+            <ArrowUpRight className="w-4 h-4" />
+          </a>
+          <a
+            href="tel:+918799784774"
+            className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground font-heading font-semibold px-8 py-3.5 rounded-lg hover-lift"
+          >
+            <Phone className="w-4 h-4" />
+            Call Me
+          </a>
+        </div>
+        <div className="flex justify-center gap-4">
+          <a href="https://www.linkedin.com/in/apoorva-kumari-283a30254/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <Linkedin className="w-5 h-5" />
+          </a>
+          <a href="https://github.com/apoorva915" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <Github className="w-5 h-5" />
+          </a>
+        </div>
       </div>
     </section>
   );
