@@ -32,7 +32,7 @@ const experiences = [
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="section-padding bg-card/50">
+    <section id="experience" className="section-padding">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12 text-center">Experience</h2>
         <div className="space-y-16">

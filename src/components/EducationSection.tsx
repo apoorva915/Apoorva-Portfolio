@@ -2,7 +2,7 @@ import { GraduationCap } from "lucide-react";
 
 const EducationSection = () => {
   return (
-    <section id="education" className="px-6 py-10 md:px-12 lg:px-24 xl:px-32 bg-card/50">
+    <section id="education" className="px-6 py-10 md:px-12 lg:px-24 xl:px-32">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12 text-center">Education</h2>
         <div className="flex items-start gap-5">

@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section id="about" className="section-padding">
+    <section id="about" className="section-padding bg-card/50">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-3 text-center">About</h2>
         <div className="max-w-3xl mx-auto text-center">
