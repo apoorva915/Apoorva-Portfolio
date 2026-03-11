@@ -10,7 +10,7 @@ const achievements = [
 
 const AchievementsSection = () => {
   return (
-    <section id="achievements" className="section-padding bg-card/50">
+    <section id="achievements" className="section-padding">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12 text-center">Achievements</h2>
         <div className="space-y-6">

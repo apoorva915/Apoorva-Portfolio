@@ -21,7 +21,7 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="section-padding">
+    <section id="projects" className="section-padding bg-card/50">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-12 text-center">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
