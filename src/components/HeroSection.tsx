@@ -20,7 +20,7 @@ const HeroSection = () => {
         <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] mb-8 animate-fade-in-up-delay-1">
           <span className="text-gradient">Apoorva Kumari</span>
         </h1>
-        <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto leading-relaxed mb-8 animate-fade-in-up-delay-2">
+        <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto leading-relaxed mb-10 animate-fade-in-up-delay-2">
           I thrive in the world of software, fueled by bold, creative ideas. I love building things that don't just work, but make an impact.
         </p>
         <div className="flex gap-4 items-center justify-center mb-6 animate-fade-in-up-delay-2">
