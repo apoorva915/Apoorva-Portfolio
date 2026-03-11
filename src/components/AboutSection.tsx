@@ -3,7 +3,7 @@ const AboutSection = () => {
     <section id="about" className="section-padding bg-card/50">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-heading text-sm tracking-[0.3em] uppercase text-primary mb-3 text-center">About</h2>
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center">
           <p className="text-2xl md:text-3xl font-heading font-semibold leading-snug mb-6">
             Building software that makes a <span className="text-gradient">real difference</span>.
           </p>
