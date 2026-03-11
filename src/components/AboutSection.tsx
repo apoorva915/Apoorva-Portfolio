@@ -7,6 +7,7 @@ const AboutSection = () => {
           <p className="text-2xl md:text-3xl font-heading font-semibold leading-snug mb-6">
             Building software that makes a <span className="text-gradient">real difference</span>.
           </p>
+          <p className="text-muted-foreground leading-relaxed">
             As a passionate learner, I thrive on making a meaningful impact in the ever-evolving world of technology. I am driven by an insatiable curiosity and a proactive approach to embracing challenges and emerging technologies, viewing them as opportunities to broaden my skill set and sharpen my problem-solving capabilities.
           </p>
           <p className="text-muted-foreground leading-relaxed">
